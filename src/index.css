@@ -13,11 +13,13 @@ code {
 }
 
 .simon-button {
+  margin: 0 auto;
   border-style: none;
   box-shadow: none;
-  width: 200px;
+  width: 100px;
   height: 100px;
   border-radius: 20px;
+  color: #eeeee4;
 }
 
 .red {
