@@ -1,22 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Test from "./components/Test";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Test pitch={1} btnText={"1"} btnColor={"red"} />
+        <Test pitch={1.25} btnText={"2"} btnColor={"blue"} />
+        <Test pitch={1.5} btnText={"3"} btnColor={"yellow"} />
+        <Test pitch={2} btnText={"4"} btnColor={"green"} />
       </header>
     </div>
   );
