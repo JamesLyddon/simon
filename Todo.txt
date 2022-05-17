@@ -1,0 +1,10 @@
+We need a way to play patterns programatically
+
+We need to have premade patterns with increasing complexity
+
+Each pattern should have a corresponding array of values
+
+User pushing buttons should fill an array which will be checked when its length matches the preceeding pattern
+
+Need to disable buttons when pattern is playing
+
