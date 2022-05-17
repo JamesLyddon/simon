@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Howl } from "howler";
 
 function SimonButton(props) {
-  const { pitch, btnText, btnColor } = props;
+  const { pitch, btnText, btnColor, id } = props;
 
   const soundA = new Howl({
     src: ["https://cdn.freesound.org/previews/26/26227_176346-lq.mp3"],
@@ -13,6 +13,7 @@ function SimonButton(props) {
   return (
     <>
       <button
+        id={id}
         className={`simon-button ${btnColor}`}
         onClick={(e) => {
           e.preventDefault();
